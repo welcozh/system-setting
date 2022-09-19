@@ -13,7 +13,7 @@
 	- plugins=( zsh-syntax-highlighting)
 - zsh-autosuggestions
 	- git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-	- plugins=(zsh-syntax-autosuggestions)
+	- plugins=(zsh-autosuggestions)
 - autojump
 	- sudo apt install autojump
 	- [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh 写入.zshrc
